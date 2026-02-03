@@ -2,7 +2,6 @@ public class Animal {
 String name ;
 int age ;
 String species;
-
 // constructor
     Animal(String AnimalName , int AnimalAge , String AnimalSpecies){
             this.age = AnimalAge;
@@ -13,7 +12,6 @@ String species;
         System.out.println("Name "+ name);
         System.out.println("Age "+ age);
         System.out.println("Species " + species);
-
 
     }
     void makeSound(){
