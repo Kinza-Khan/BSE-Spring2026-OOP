@@ -18,5 +18,7 @@ public class CopyConstructor {
     static void main(String[] args) {
             CopyConstructor obj = new CopyConstructor(1,"sana");
             obj.display();
+            CopyConstructor obj2 = new CopyConstructor(obj);
+            obj2.display();
     }
 }
