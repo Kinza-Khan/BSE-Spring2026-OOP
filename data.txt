@@ -1,0 +1,9 @@
+Category: fruits
+   - apple
+   - orange
+   - mango
+
+Category: vegetables
+   - onion
+   - potato
+
